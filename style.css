@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.con{
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+}
+span{
+    font-size: 150px;
+    font-weight: 10;
+}
+.btn-wrp{
+    position: absolute;
+    top:450px;
+    left: 485px;
+}
+button{
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(121, 121, 121);
+    margin-right: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(83, 83, 83);
+    cursor: pointer;
+}
